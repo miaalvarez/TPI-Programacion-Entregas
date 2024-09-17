@@ -1,0 +1,53 @@
+<html lang="es"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio-Colegio Dr. Ernesto Guevara</title>
+    <link rel="icon" href="/imagenes/favicon.ico">
+    <link rel="stylesheet" href="/inicio de pagina/inicio de pagina.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+        </div>
+        <div class="user-info">
+            <p>Usuario</p>
+            <img src="/imagenes/foto de usuario.png" alt="Foto de usuario" class="user">
+        </div>
+    </div>
+
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Notas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="texto">
+        <h1>Tus notas:</h1>
+        <p>Esta herramienta web está destinada a mostrar a los estudiantes del colegio sus respectivas notas de cada materia.</p>
+        <p>El colegio espera que esta herramienta automatice tareas repetitivas, sea accesible para las familias y eficiente para los alumnos.  </p>
+    </div>
+    <div class="imagen">
+        <img src="/imagenes/escuela.png" alt="Colegio">
+    </div>
+</div>
+
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById('menu');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+</script>

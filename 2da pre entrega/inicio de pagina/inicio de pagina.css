@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5ebe2;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff4b4b;
+    padding: 10px 20px;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .linea {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info p {
+    color: white;
+    margin-right: 10px;
+}
+
+.user {
+    width: 50px;
+}
+
+.menu {
+    display: none; 
+    background-color: #ff4b4b;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.menu li a:hover {
+    background-color: #ff7777;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.left, .right {
+    width: 50%; 
+    text-align: center; 
+}
+
+.right img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.texto {
+    width: 60%;
+}
+
+.texto h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    width: 35%;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
